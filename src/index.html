@@ -6,9 +6,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+    <div id="root" class="root"><img src="candado.png" width="50" height="50">
+      <h1>Elige una clave</h1>
+      <input type="text" class="text" id="texto"  style="text-transform:uppercase" size="25" value=""/>
+      <button type="submit" class="btn1" id="btnCifrar">Cifrar</button> 
+      <button type="submit" class="btn2" id="btnDescifrar">Descifrar</button>
+
+
+      <p id="resultado"></p> 
+      <div id="container" class="container"> 
+        <input type="number" class="number" id="shiftInput"> 
+      </div> 
+
     </div>
+
+  
     <script src="index.js" type="module"></script>
   </body>
+  
+  
 </html>
+
+
